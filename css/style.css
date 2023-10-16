@@ -25,7 +25,7 @@ nav {
     display: flex;
     line-height: 40px;
     font-size: 20px;   
-    border: 2px dashed;   
+    border: 2px dashed black;   
 }
 
 nav.center {
@@ -39,7 +39,7 @@ nav.center {
 .left-section {
     width: 20%;
     padding-left: 10px;
-    border-right: 3px dashed;
+    border-right: 3px dashed black;
 }
 
 .middle-section {
@@ -51,7 +51,7 @@ nav.center {
     width: 20%;
     text-align: right;
     padding-right: 10px;
-    border-left: 3px dashed;
+    border-left: 3px dashed black;
 }
 
 a {
@@ -70,7 +70,7 @@ a {
 }
 
 header  div.center {
-    border: 2px dashed; 
+    border: 2px dashed black; 
     background-color: #ee82ee;
     max-width: 50%;
     height: 400px;
@@ -93,14 +93,14 @@ main div.center {
 .section-img {
     width: 60%;
     height: 500px;
-    border: 2px dashed; 
+    border: 2px dashed black; 
     background-color: #1e90ff;
 }
 
 .section-text {
     width: 40%;
     height: 500px;
-    border: 2px dashed; 
+    border: 2px dashed black; 
     background-color: #ffc0cb;
 }
 
@@ -114,9 +114,59 @@ main div.center {
     width: 100%;
     height: 1000px;
     background-color: #228b22;
+    border: 3px dashed black; 
 }
 
+/* Stili del Footer */
 
+/* Stili Prima Parte Footer */
+.container-first-part-footer {
+    background-color: #23272a;
+    padding: 10px 0 40px;
+    border-bottom: 2px solid white;
+}
+
+footer div.center-footer {
+    display: flex;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.socials {
+    width: 25%;
+    background-color: #f08080;
+    height: 600px;
+    border: 2px dashed black;
+}
+
+.col {
+    width: calc(75% / 4);
+    background-color:#20b2aa;
+    height: 600px;
+    border: 2px dashed white;
+}
+
+/* Stili Seconda Parte Footer */
+.container-second-part-footer {
+    background-color: #23272a;
+    padding-top: 30px;
+    border-bottom: 2px solid white;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #7fffd4;
+    height: 70px;
+}
+
+.left-section-footer, .right-section-footer {
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+    padding: 4px 7px;
+}
 
 
 
