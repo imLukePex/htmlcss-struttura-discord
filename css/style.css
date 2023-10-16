@@ -12,32 +12,28 @@
 
 /* Stili dell'Header */
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     /* DEBUG */
     background-color: #add8e6;
-    min-height: 100px;
+    min-height: 80px;
 }
 
-#container-navbar {
-    display: flex;
-    min-width: 60%;
-    border: 2px dashed;
-    
-    /* DEBUG */
-    background-color: #daa520;
-    min-height: 40px;
+#navbar {
+    padding: 20px 0;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
     line-height: 40px;
     font-size: 20px;   
+    border: 2px dashed;   
+}
+
+nav.center {
+    max-width: 65%;
+    margin: 0 auto;
+
+    /* DEBUG */
+    background-color: #daa520;
 }
 
 .left-section {
@@ -64,9 +60,22 @@ a {
 }
 
 #container-header {
-
     /* DEBUG */
     background-color: #00008b;
+    min-height: 450px;
+}
+
+#text {
+    
+}
+
+div.center {
+    display: flex;
+    border: 2px dashed; 
+    background-color: #ee82ee;
+    max-width: 55%;
+    height: 350px;
+    margin: 0 auto;
 }
 
 
