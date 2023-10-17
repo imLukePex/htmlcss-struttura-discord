@@ -80,7 +80,7 @@ header  div.center {
 /* Stili del Main */
 
 /* Stili Generali Sezioni */
-.container-first-section, .container-second-section, .container-third-section, .container-fourth-section {
+.container-section {
     padding: 50px 0;
 }
 
@@ -105,7 +105,7 @@ main div.center {
 }
 
 /* Stili Seconda e Quarta Sezione */
-.container-second-section, .container-fourth-section  {
+.grey  {
     background-color: #d3d3d3;
 }
 
